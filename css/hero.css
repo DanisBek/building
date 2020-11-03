@@ -1,0 +1,120 @@
+.hero{
+    /* margin-top: -150px; */
+    transition: 0.3s;
+    animation: danis 1s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes danis {
+    from {margin-top: 0;}
+    to {margin-top: -150px;}
+}
+.case{
+    position: relative;
+}
+.rectangle{
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid red; */
+    justify-content: center;
+    top: -150px;
+    /* position: absolute; */
+    background-color: #e8eef1;
+}
+.rectangle_item{
+    width: 190px;
+    height: 186px;
+    border: 2px solid black;
+    margin-right: 30px;
+    margin-top: 57px;
+}
+.number{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F7654A;
+}
+.year{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;    
+}
+.text{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #999999;
+}
+.hero_title{
+    /* position: absolute; */
+    margin-top: 100px;
+    left: 700px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404149;
+    margin-bottom: 60px;
+}
+.case_hero{
+    justify-content: space-between;
+}
+.hero_items{
+    width: 350px;
+}
+.hero_img{
+    margin-bottom: 66px;
+    width: 320px;
+    height: 350px;
+    transition: 0.3s;
+}
+.hero_img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.5); /* Параметры тени */
+    /* padding: 10px; */
+}
+.hero_name{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+    margin-bottom: 20px;
+}
+.hero_name::before{
+    content: '';
+    width: 55px;
+    height: 6px;
+    left: 1165px;
+    top: 1518px;
+    
+    /* Accent */
+    
+    background: #F7654A;
+}
+.hero_description{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999; 
+    margin-bottom: 150px;   
+}
