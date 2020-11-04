@@ -1,7 +1,6 @@
 .hero{
-    /* margin-top: -150px; */
-    transition: 0.3s;
-    animation: danis 1s;
+    /* transition: 0.3s; */
+    animation: danis 2s;
     animation-fill-mode: forwards;
 
 }
@@ -18,13 +17,12 @@
     /* border: 2px solid red; */
     justify-content: center;
     top: -150px;
-    /* position: absolute; */
-    background-color: #e8eef1;
+    background-color: #F7F7F7;
 }
 .rectangle_item{
     width: 190px;
     height: 186px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-right: 30px;
     margin-top: 57px;
 }
@@ -97,17 +95,24 @@
     line-height: 36px;
     color: #404149;
     margin-bottom: 20px;
+    
 }
 .hero_name::before{
     content: '';
+    left: 0;
     width: 55px;
     height: 6px;
-    left: 1165px;
-    top: 1518px;
-    
-    /* Accent */
-    
-    background: #F7654A;
+    background-color: #F7654A;
+    z-index: 1;
+    position: absolute;
+    top: 55%;
+    transition: 1s;
+}
+.hero_items:hover .hero_name::before{
+    left: 75%;
+}
+.hero_items{
+    position: relative;
 }
 .hero_description{
     font-family: 'Open Sans';

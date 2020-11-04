@@ -33,4 +33,13 @@
     top: 1894px;
     margin-top: 73px;
     background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+.request_text{
+    margin-left: 15px;
+}
+.request:active {
+    transform: scale(0.9);
+    transition: 0.3s;
 }
