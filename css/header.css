@@ -20,8 +20,6 @@ header{
     transform: scale(0.9);
 }
 .burger_menu{
-    
-    /* background-color: #F7654A; */
     display: flex;
     flex-direction: column;
     justify-content: center;
