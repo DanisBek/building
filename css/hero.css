@@ -1,6 +1,5 @@
 .hero{
-    transition: 0.3s;
-    animation: danis 1s;
+    animation: danis 2s;
     animation-fill-mode: forwards;
 
 }
@@ -21,7 +20,7 @@
 .rectangle_item{
     width: 190px;
     height: 186px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-right: 30px;
     margin-top: 57px;
 }
@@ -92,9 +91,11 @@
     line-height: 36px;
     color: #404149;
     margin-bottom: 20px;
+    
 }
 .hero_name::before{
     content: '';
+    left: 0;
     width: 55px;
     height: 6px;
     left: 1165px;
