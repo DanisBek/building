@@ -1,0 +1,27 @@
+.footer{
+    background-color: #404149;
+    height: 82px;
+    display: flex;justify-content: space-between;
+}
+.box_footer{
+    justify-content: space-around;
+}
+.footer_left{
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.footer_right{
+    display: inline-block;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #FFFFFF;
+}
