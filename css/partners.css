@@ -1,3 +1,106 @@
 .partners{
     margin-top: 150px;
 }
+.head_partner{
+    background-color: #404149;
+    margin-bottom: 150px;
+}
+.head_partner_theme{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+.partner_items{
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.3s;
+
+}
+.partner_items:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0px 0px 25px rgba(194, 194, 194, 0.5);
+}
+.construction{
+    display: flex;
+    flex-wrap: wrap;
+    width: 170px;
+    height: 61px;
+}
+.partner_img{
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.partner_title{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000; 
+    margin: auto;
+    margin-bottom: 64px;
+}
+.partner_item_description{
+    border: 2px solid black;
+    background-color: #F7F7F7;
+    box-sizing: border-box;
+    width: 350px;
+    height: 260px;
+    position: relative;
+    padding: 0 30px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+.partner_item_description:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.5);
+}
+.partner_item_description:hover .aa{
+    /* transform: rotate(180deg); */
+    transition: 1s;
+    /* transform: translateX(0px) rotate(90deg); */
+    transform: rotate(180deg) translateX(1px);
+    margin-top:  0px;
+}
+.aa{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #F7654A;
+    display: inline-block;
+    transition: 1s;
+}
+.description_text{
+    position: absolute;
+    top: 80px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #999999;
+    margin-right: 30px;
+}
+.partner_content_theme{
+    display: inline-block;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+}

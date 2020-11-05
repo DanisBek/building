@@ -12,3 +12,18 @@
 .a{
     text-decoration: none;
 }
+.colum{
+    flex-direction: column;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.col-3{
+    width: 30%;
+}
+.orange{
+    color: #F7654A;
+}
+.c{
+    color: #999999;
+}
