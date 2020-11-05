@@ -70,6 +70,7 @@
     justify-content: space-between;
 }
 .hero_items{
+    position: relative;
     width: 350px;
 }
 .hero_img{
@@ -94,13 +95,23 @@
     
 }
 .hero_name::before{
+    position: absolute;
     content: '';
+    top: 55%;
     left: 0;
     width: 55px;
     height: 6px;
-    left: 1165px;
-    top: 1518px;
     background: #F7654A;
+    z-index: 1;
+    position: absolute;
+    top: 55%;
+    transition: 1s;
+}
+.hero_items:hover .hero_name::before{
+    left: 75%;
+}
+.hero_items{
+    position: relative;
 }
 .hero_description{
     font-family: 'Open Sans';
