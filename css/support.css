@@ -1,5 +1,5 @@
 .support_title{
-    font-family: Oswald;
+    font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -42,13 +42,12 @@
     margin-bottom: 25px;
 }
 .support_description{
-    font-family: Oswald;
+    font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
     text-align: center;
-    
     color: #000000;
-    
+
 }
